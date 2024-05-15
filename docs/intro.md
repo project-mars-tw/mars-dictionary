@@ -2,46 +2,46 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# 火星辭典簡介
 
-Let's discover **Docusaurus in less than 5 minutes**.
+歡迎來到火星辭典！這個辭典的目的在於提供更清楚的溝通環境，幫助你和其他人的溝通更順暢。
 
-## Getting Started
+## 使用教學
 
-Get started by **creating a new site**.
+要使用這個辭典，你可以按照以下步驟進行：
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+1. **搜尋功能**：在頁面頂部的搜尋欄中輸入你想查詢的詞彙。
+2. **瀏覽詞條**：使用左側導航欄或目錄瀏覽不同的詞條。
+3. **閱讀詞條**：點擊任何詞條名稱，即可查看其詳細解釋、例句及相關資訊。
 
-### What you'll need
+## 如何編輯
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+如果你發現有詞條需要修正或更新，歡迎你進行編輯。以下是編輯辭典的步驟：
 
-## Generate a new site
+1. **Fork 專案**：前往 [GitHub 頁面](https://github.com/project-mars-tw/mars-dictionary)，並點擊右上角的 Fork 按鈕。
+2. **Clone 專案**：在本地 clone 你 fork 的專案。
+    ```sh
+    git clone https://github.com/project-mars-tw/mars-dictionary.git
+    ```
+3. **編輯文件**：找到需要編輯的詞條 Markdown 文件，進行修改。
+4. **提交更改**：將修改提交到你的 Fork 專案中。
+    ```sh
+    git add .
+    git commit -m "更新 xxx 詞條"
+    git push origin main
+    ```
+5. **發送 Pull Request**：在 GitHub 上發送 Pull Request，等待專案管理員審核。
 
-Generate a new Docusaurus site using the **classic template**.
+## 貢獻指南
 
-The classic template will automatically be added to your project after you run the command:
+我們歡迎所有對這個辭典有興趣的貢獻者。你可以按照以下步驟開始貢獻：
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+1. **閱讀貢獻指南**：在開始之前，請先閱讀 [貢獻指南](https://github.com/project-mars-tw/mars-dictionary/CONTRIBUTING.md) 以瞭解貢獻的具體要求和流程。
+2. **報告問題**：如果你發現任何問題，可以在 [Issues 頁面](https://github.com/project-mars-tw/mars-dictionary/issues) 報告。
+3. **提交新詞條**：如果你想要新增詞條，請按照編輯步驟創建新文件並發送 Pull Request。
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+## 聯絡我們
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+如果你有任何問題或需要進一步的幫助，請隨時通過 [Email](mailto://events@projectmars.info) 與我們聯絡。
 
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+感謝你的參與和支持！
