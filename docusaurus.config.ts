@@ -78,7 +78,12 @@ const config: Config = {
           href: githubUrl,
           label: 'GitHub',
           position: 'right',
-        }
+        },
+        {
+          href: '/contact',
+          label: '聯絡我們',
+          position: 'right',
+        },
       ],
     },
     footer: {

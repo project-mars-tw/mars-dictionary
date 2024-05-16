@@ -1,0 +1,28 @@
+.header {
+  padding: 4rem 0;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.contactSection {
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.contactSection ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contactSection li {
+  margin: 0.5rem 0;
+}
+
+.contactSection a {
+  color: #0078d4;
+  text-decoration: none;
+}
+
+.contactSection a:hover {
+  text-decoration: underline;
+}

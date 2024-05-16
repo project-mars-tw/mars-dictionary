@@ -42,6 +42,6 @@ sidebar_position: 1
 
 ## 聯絡我們
 
-如果你有任何問題或需要進一步的幫助，請隨時通過 [Email](mailto://events@projectmars.info) 與我們聯絡。
+如果你有任何問題或需要進一步的幫助，請隨時通過 [Contact 頁面](/contact) 與我們聯絡。
 
 感謝你的參與和支持！
