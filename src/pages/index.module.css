@@ -3,21 +3,64 @@
  * and scoped locally.
  */
 
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .heroBanner {
   padding: 4rem 0;
   text-align: center;
-  position: relative;
-  overflow: hidden;
 }
 
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
+.hero__title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero__subtitle {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
 }
 
 .buttons {
+  margin-top: 2rem;
+}
+
+.popularTerms {
+  padding: 4rem 0;
+  background-color: #f9f9f9;
+}
+
+.popularTerms h2 {
+  text-align: center;
+}
+
+.popularTerms ul {
+  list-style: none;
+  padding: 0;
   display: flex;
-  align-items: center;
   justify-content: center;
+  gap: 2rem;
+}
+
+.popularTerms li {
+  font-size: 1.25rem;
+}
+
+.contact, .community {
+  padding: 4rem 0;
+}
+
+.contact h2, .community h2 {
+  text-align: center;
+}
+
+.contact p, .community p {
+  text-align: center;
 }
